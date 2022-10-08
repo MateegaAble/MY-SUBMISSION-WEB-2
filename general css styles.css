@@ -1,0 +1,107 @@
+/*this is a universl selector*/
+*{
+    color: rgb(23, 231, 23);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#h1styles{
+   text-align: right;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#list style{
+    list-style-type: none;
+}
+.pstyles{
+    color: blue;
+    font-size: larger;
+}
+
+div.a{
+   background: brown;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+div.b{
+    background: rgb(44, 42, 165);
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+div.abrine{
+      background: rgb(81, 165, 42);
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+div.imag{
+    height: 20%;
+    width: auto;
+    float: none;
+    border: 4px solid green;
+    margin-bottom: 10px solid red;
+}
+
+.para{
+    border: lawngreen;
+    margin-top: 50px;
+    height: 50px;
+
+}
+
+div.dd{
+    border: 4px solid goldenrod;
+    margin-bottom: 10px;
+    background-image: -moz-radial-gradient();
+padding: 15px;
+}
+
+ul {
+    background-color: darkgreen;
+    width: 300px;
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 20px;
+}
+    
+li a{
+    color: black;
+    background-color: darkblue;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a :hover{
+    background-color: brown;
+    color: crimson;
+}
+
+.active{
+    background-color: yellow;
+    color: black;
+}
+.tt{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tuned{
+    background-color: blue;
+    list-style-type: lower-alpha;
+    display: list-item;
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
